@@ -11,7 +11,7 @@ public class kermistest {
 				String antwoord = sc.nextLine();
 				
 				System.out.println(antwoord + "..........."); // op de puntjes wil je later de keuze zien die gelinkt is aan de keuze: 1 voor botsauto's bijv.
-				if (antwoord >= 7 < 0){							// ik wil hier graag ingeven dat de input in de scanner alleen 0 t/m 7 mag zijn. Indien een 8 wordt gekozen wil ik graag dat de syso op lijn 15 print.
+				if (sc.nextLine > 6 || < 0){							// ik wil hier graag ingeven dat de input in de scanner alleen 0 t/m 7 mag zijn. Indien een 8 wordt gekozen wil ik graag dat de syso op lijn 15 print.
 					System.out.println("Je kan alleen een keuze van 0 t/m 6 ingeven");
 				}
 	
