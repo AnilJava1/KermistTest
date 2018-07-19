@@ -8,21 +8,21 @@ public class kermistest {
 				
 				System.out.println("Kies een attractie die je wilt proberen.\n1 voor Botsauto's\n2 voor de Spin\n3 voor het Spiegelpaleis\n4 voor het Spookhuis\n5 voor Hawaii en\n6 voor Ladderklimmen");
 				Scanner sc = new Scanner(System.in);
-				int scSpelen = sc.nextInt();
+				int antwoord = sc.nextInt();
 				
-				//System.out.println(antwoord + "..........."); // op de puntjes wil je later de keuze zien die gelinkt is aan de keuze: 1 voor botsauto's bijv.
-				//if (antwoord > 6 || antwoord < 0){			// (dit laat ik voor wat het is). ik wil hier graag ingeven dat de input in de scanner alleen 0 t/m 7 mag zijn. Indien een 8 wordt gekozen wil ik graag dat de syso op lijn 15 print.
-				//	System.out.println("Je kan alleen een keuze van 0 t/m 6 ingeven");
+				System.out.println(antwoord + "..........."); // op de puntjes wil je later de keuze zien die gelinkt is aan de keuze: 1 voor botsauto's bijv.
+				if (antwoord <= 7 ){							// ik wil hier graag ingeven dat de input in de scanner alleen 0 t/m 7 mag zijn. Indien een 8 wordt gekozen wil ik graag dat de syso op lijn 15 print.
+					System.out.println("Je kan alleen een keuze van 0 t/m 6 ingeven");
 				}
 	
 	}
 	
-//}
+}
 
 
-// gegit pushed en verwijdert vanuit Eclipse.
-class Attractieoud{
-		
+
+class Attractie{
+	
 }
 
 
